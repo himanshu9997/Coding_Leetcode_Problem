@@ -6,7 +6,7 @@ class Solution {
         for (int i = 0; i < n - 1; i++) {
             boolean updated = false;
             for (int j = 0; j < edges.length; j++) {
-                int u = edges[j][0];
+                int u = edges[j][0]; 
                 int v = edges[j][1];
                 double prob = succProb[j];
 
